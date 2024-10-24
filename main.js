@@ -18,7 +18,7 @@ const speedSelect = document.getElementById('speed');
 const videos = [
     { title: 'video 0', awner: '0', src: './srcs/ii.mp4' },
     { title: 'video 1', awner: '1', src: './srcs/f.mp4' },
-    { title: 'video 3', awner: '3', src: "https://www.youtube.com/embed/sGZ8wRh3OXo?si=72-mJpeqc354jg8A" },
+    // { title: 'video 3', awner: '3', src: "https://www.youtube.com/embed/sGZ8wRh3OXo?si=72-mJpeqc354jg8A" },
     { title: 'video 4', awner: '4', src: './srcs/VID-20241023-WA0003.mp4' }
     
 ]
