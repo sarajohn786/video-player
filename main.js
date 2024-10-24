@@ -1,5 +1,3 @@
-// const vedioElement = document.createElement('video')
-// document.body.appendChild(vedioElement)
 const vedioElement = document.querySelector('#video')
 
 // Select DOM elements
@@ -21,10 +19,9 @@ const videos = [
     { title: 'video 0', awner: '0', src: './srcs/ii.mp4' },
     { title: 'video 1', awner: '1', src: './srcs/f.mp4' },
     { title: 'video 3', awner: '3', src: "https://www.youtube.com/embed/sGZ8wRh3OXo?si=72-mJpeqc354jg8A" },
-    { title: 'video 4', awner: '4', src: './srcs/VID-20241023-WA0003.mp4' },
+    { title: 'video 4', awner: '4', src: './srcs/VID-20241023-WA0003.mp4' }
     
 ]
-/* <iframe width="560" height="315" src="https://www.youtube.com/embed/sGZ8wRh3OXo?si=72-mJpeqc354jg8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */
 
 let videoIndex = 0;
 let isPlaying = false;
