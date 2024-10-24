@@ -111,6 +111,9 @@ updateProgress = (e) => {
     const currentMinute = Math.floor(currentTime / 60)
     let currentSeconds = Math.floor(currentTime % 60)
     durationEl.textContent = `${currentMinute}:${currentSeconds}`
+
+
+    vedioElement.playbackRate = speed
 }
 // setProgress
 function setProgress(e) {
@@ -165,6 +168,7 @@ speedSelect.addEventListener('change',function(e) {
     speed = parseFloat(e.target.value)
     console.log(e.target.value)
     vedioElement.playbackRate = speed
+    
 })
 
 // load metadata
